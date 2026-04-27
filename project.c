@@ -78,8 +78,9 @@ int main()
 
 //final boss
     float total = 0;
-    for (i = 0; i < subjects; i++)
-        total += s[i].grades[terms - 1];
+    int k;
+    for (k = 0; k < subjects; k++)
+        total += s[k].grades[terms - 1];
 
     float avg = total / subjects;
 
